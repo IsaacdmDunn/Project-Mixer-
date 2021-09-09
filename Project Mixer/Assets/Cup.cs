@@ -9,7 +9,10 @@ public class Cup : MonoBehaviour
     public RawImage contentsSprite;
     public float cupSize = 10f;
     public float cupVolume = 0f;
+    public float dropRate = 0f;
     public Vector4 color;
+
+    public Text liquidList;
     
     // Start is called before the first frame update
     void Start()
@@ -22,28 +25,52 @@ public class Cup : MonoBehaviour
     void Update()
     {
         cupVolume = 0;
+        contentsSprite.color = new Vector4(1f, 1f, 1f, 1f);
+        liquidList.text = "Contents \n";
 
         // cupVolume = red.volume + blue.volume;
         foreach (Liquid liquid in contents)
         {
-            contentsSprite.color += (liquid.color * (liquid.volume * 100));
+            liquid.volume -= dropRate * liquid.volume;
+            contentsSprite.color = contentsSprite.color + (liquid.color * (liquid.volume * 1000));
             cupVolume += liquid.volume;
+            liquidList.text += liquid.name + " : " + liquid.volume * 100 + "% \n";
+
             
         }
-        contentsSprite.color = contentsSprite.color / (cupVolume * 100);
-        
+        for (int i = 0; i < contents.Count; i++)
+        {
+            if (contents[i].volume < 0.01f)
+            {
+                contents.RemoveAt(i);
+            }
+            
+        }
+        contentsSprite.color = contentsSprite.color / (cupVolume * 1000);
+        //contentsSprite.color = contentsSprite.color / (cupVolume * 1000);
         color = contentsSprite.color;
-        //contentsSprite.color = ((red.color*(red.volume * 10)) + (blue.color * (blue.volume * 10)))/(cupVolume * 10);
-        //contentsSprite.color = Color.Lerp(contentsSprite.color, color, .5f);
+        //contentsSprite.color = ((red.color*(red.volume * 1000)) + (blue.color * (blue.volume * 1000)))/(cupVolume * 1000);
         contentsSprite.transform.localScale = new Vector3(1, cupVolume, cupVolume);
 
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.Q) && gameObject.transform.rotation.z < 90f)
         {
-            gameObject.transform.Rotate(new Vector3(0,0,-.1f));
+           gameObject.transform.Rotate(new Vector3(0,0,.1f));
         }
-        else if (Input.GetKey(KeyCode.E))
+        else if (Input.GetKey(KeyCode.E) && gameObject.transform.rotation.z > 0f)
         {
-            gameObject.transform.Rotate(new Vector3(0, 0, .1f));
+            gameObject.transform.Rotate(new Vector3(0, 0, -.1f));
         }
+        dropRate = gameObject.transform.rotation.z * 0.01f;
+        if (dropRate < 0.005f)// && gameObject.transform.rotation.z > 30f)
+        {
+            dropRate = 0;
+        }
+
+        
+    }
+
+    public void mixLiquid()
+    {
+
     }
 }
