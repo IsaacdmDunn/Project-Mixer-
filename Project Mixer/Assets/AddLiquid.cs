@@ -14,12 +14,13 @@ public class AddLiquid : MonoBehaviour
     {
         if (cup.cupVolume < cup.cupSize)
         {
-            if (cup.contents.Find(x => x.id == 1))
+            if (!cup.contents.Find(x => x.id == 1))
             {
+                cup.contents.Add(red);
             }
             else
             {
-                cup.contents.Add(red);
+                
             }
             cup.contents.Find(x => x.id == 1).volume += 0.001f;
             //cup.red.volume += 0.001f;

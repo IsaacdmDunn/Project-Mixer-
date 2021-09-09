@@ -13,6 +13,8 @@ public class Cup : MonoBehaviour
     public Vector4 color;
 
     public Text liquidList;
+
+    public List<Mixer> mixer;
     
     // Start is called before the first frame update
     void Start()
@@ -46,6 +48,14 @@ public class Cup : MonoBehaviour
             }
             
         }
+
+        foreach (Mixer mix in mixer)
+        {
+            mix.CheckMix();
+        }
+        
+
+
         contentsSprite.color = contentsSprite.color / (cupVolume * 1000);
         //contentsSprite.color = contentsSprite.color / (cupVolume * 1000);
         color = contentsSprite.color;
@@ -69,8 +79,5 @@ public class Cup : MonoBehaviour
         
     }
 
-    public void mixLiquid()
-    {
-
-    }
+    
 }
