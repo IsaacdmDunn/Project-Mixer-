@@ -13,7 +13,7 @@ public class Mixer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        mix.volume = 0;
     }
 
     // Update is called once per frame

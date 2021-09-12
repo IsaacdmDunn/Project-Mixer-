@@ -1,45 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AddLiquid : MonoBehaviour
 {
     public Cup cup;
+    public LiquidManager lm;
 
     public Liquid blue;
     public Liquid red;
     public Liquid green;
 
+    public void Start()
+    {
+        blue.volume = 0;
+        red.volume = 0;
+        green.volume = 0;
+    }
+
     public void AddRed()
     {
-        if (cup.cupVolume < cup.cupSize)
-        {
-            if (!cup.contents.Find(x => x.id == 1))
-            {
-                cup.contents.Add(red);
-            }
-            else
-            {
-                
-            }
-            cup.contents.Find(x => x.id == 1).volume += 0.001f;
-            //cup.red.volume += 0.001f;
-        }
+        lm.SaveToJson();
 
     }
     public void AddBlue()
     {
-        if (cup.cupVolume < cup.cupSize)
-        {
-            if (cup.contents.Find(x => x.id == 2))
-            {
-            }
-            else
-            {
-                cup.contents.Add(blue);
-            }
-            cup.contents.Find(x => x.id == 2).volume += 0.001f;
-        }
     }
 
     public void AddFluid(Liquid liquid)
@@ -59,17 +42,17 @@ public class AddLiquid : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetKey(KeyCode.Alpha1))
         {
-            AddBlue();
+            AddFluid(lm.liquids[0]);
         }
-        else if (Input.GetMouseButton(1))
+        else if (Input.GetKey(KeyCode.Alpha2))
         {
-            AddRed();
+            AddFluid(lm.liquids[1]);
         }
-        else if (Input.GetKey(KeyCode.W))
+        else if (Input.GetKey(KeyCode.Alpha3))
         {
-            AddFluid(green);
+            AddFluid(lm.liquids[2]);
         }
     }
 }
