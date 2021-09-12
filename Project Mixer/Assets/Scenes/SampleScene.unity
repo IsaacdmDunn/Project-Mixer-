@@ -285,9 +285,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1046232560}
-        m_TargetAssemblyTypeName: AddLiquid, Assembly-CSharp
-        m_MethodName: AddRed
+      - m_Target: {fileID: 1333885435}
+        m_TargetAssemblyTypeName: Cup, Assembly-CSharp
+        m_MethodName: FinishPotion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -888,6 +888,7 @@ MonoBehaviour:
   mixer:
   - {fileID: 1686717553}
   - {fileID: 2096183909}
+  potion: {fileID: 2512705134423542545, guid: 008ddf23c1d0cbc42a84a64a95d14b71, type: 3}
 --- !u!1001 &1405134552
 PrefabInstance:
   m_ObjectHideFlags: 0

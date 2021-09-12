@@ -18,18 +18,19 @@ public class Potion : MonoBehaviour
         // cupVolume = red.volume + blue.volume;
         foreach (Liquid liquid in contents)
         {
-            contentsSprite.color = contentsSprite.color + (liquid.color * (liquid.volume * 1000));
-            if (primaryIngredient.volume < liquid.volume)
+            contentsSprite.color = color;
+            if (primaryIngredient == null || primaryIngredient.volume < liquid.volume)
             {
                 secondaryIngredient = primaryIngredient;
                 primaryIngredient = liquid;
             }
-            else if(secondaryIngredient.volume < liquid.volume)
+            else if(secondaryIngredient == null || secondaryIngredient.volume < liquid.volume)
             {
-
+                secondaryIngredient = liquid;
             }
             
         }
+        contents = null;
     }
 
     // Update is called once per frame

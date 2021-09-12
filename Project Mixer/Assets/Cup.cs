@@ -15,12 +15,21 @@ public class Cup : MonoBehaviour
     public Text liquidList;
 
     public List<Mixer> mixer;
+    public Potion potion;
     
     // Start is called before the first frame update
     void Start()
     {
         //contents = new List<Liquid>();
         contentsSprite.color = new Vector4(1f,1f,1f,1f);
+    }
+
+    public void FinishPotion()
+    {
+
+        potion.contents = contents;
+        potion.color = color;
+        Instantiate(potion);
     }
 
     // Update is called once per frame
