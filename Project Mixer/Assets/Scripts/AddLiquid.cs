@@ -4,6 +4,7 @@ public class AddLiquid : MonoBehaviour
 {
     public Cup cup;
     public LiquidManager lm;
+    public LiquidManager liquids;
 
     public Liquid blue;
     public Liquid red;
@@ -14,16 +15,9 @@ public class AddLiquid : MonoBehaviour
         blue.volume = 0;
         red.volume = 0;
         green.volume = 0;
+        
     }
 
-    public void AddRed()
-    {
-        lm.SaveToJson();
-
-    }
-    public void AddBlue()
-    {
-    }
 
     public void AddFluid(Liquid liquid)
     {
@@ -37,6 +31,7 @@ public class AddLiquid : MonoBehaviour
                 cup.contents.Add(liquid);
             }
             cup.contents.Find(x => x.id == liquid.id).volume += 0.001f;
+            cup.cupUpdated = false;
         }
     }
 
@@ -44,15 +39,15 @@ public class AddLiquid : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Alpha1))
         {
-            AddFluid(lm.liquids[0]);
+            AddFluid(liquids.liquidsPrefab[0]);
         }
         else if (Input.GetKey(KeyCode.Alpha2))
         {
-            AddFluid(lm.liquids[1]);
+            AddFluid(liquids.liquidsPrefab[1]);
         }
         else if (Input.GetKey(KeyCode.Alpha3))
         {
-            AddFluid(lm.liquids[2]);
+            AddFluid(liquids.liquidsPrefab[2]);
         }
     }
 }

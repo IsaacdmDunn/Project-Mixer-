@@ -10,32 +10,39 @@ public class Potion : MonoBehaviour
     public Vector4 color;
     public Image contentsSprite;
     public Liquid primaryIngredient;
+    public float primaryIngredientVolume;
     public Liquid secondaryIngredient;
+    public float secondaryIngredientVolume;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         // cupVolume = red.volume + blue.volume;
         foreach (Liquid liquid in contents)
         {
+
             contentsSprite.color = color;
-            if (primaryIngredient == null || primaryIngredient.volume < liquid.volume)
+            
+            if (secondaryIngredient == null && primaryIngredient != null)
             {
                 secondaryIngredient = primaryIngredient;
                 primaryIngredient = liquid;
+                secondaryIngredientVolume = primaryIngredientVolume;
+                primaryIngredientVolume = liquid.volume;
             }
-            else if(secondaryIngredient == null || secondaryIngredient.volume < liquid.volume)
+            if (primaryIngredient == null)
             {
+                primaryIngredientVolume = liquid.volume;
+                primaryIngredient = liquid;
+            }
+            else if(secondaryIngredient == null)
+            {
+                secondaryIngredientVolume = liquid.volume;
                 secondaryIngredient = liquid;
             }
             
         }
-        contents = null;
+        //contents = null;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

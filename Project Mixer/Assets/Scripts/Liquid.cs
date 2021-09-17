@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-[CreateAssetMenu (fileName = "Unnamed Liquid", menuName = "Liquid")]
-public class Liquid : ScriptableObject
+//[CreateAssetMenu (fileName = "Unnamed Liquid", menuName = "Liquid")]
+public class Liquid : MonoBehaviour
 {
     public float volume;
     public Color color;

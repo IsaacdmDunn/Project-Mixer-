@@ -6,12 +6,13 @@ using UnityEngine;
 public class LiquidManager : MonoBehaviour
 {
     public List<Liquid> liquids;
+    public List<Liquid> liquidsPrefab;
     Liquid data;
     List<Liquid> data1;
     public void Start()
     {
         
-        SaveToJson();
+        //SaveToJson();
         //LoadFromJson();
        // Debug.Log(liquid.id)
     }
