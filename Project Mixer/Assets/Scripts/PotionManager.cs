@@ -27,9 +27,9 @@ public class PotionManager : MonoBehaviour
             potionInfo.text += child.GetComponent<Potion>().primaryIngredient.name + " : " + child.GetComponent<Potion>().primaryIngredientVolume.ToString() + "\n";
             if (child.GetComponent<Potion>().secondaryIngredient != null)
             {
-                potionInfo.text += child.GetComponent<Potion>().secondaryIngredient.name + " : " + child.GetComponent<Potion>().secondaryIngredient.ToString() + "\n";
+                potionInfo.text += child.GetComponent<Potion>().secondaryIngredient.name + " : " + child.GetComponent<Potion>().secondaryIngredientVolume.ToString() + "\n";
             }
-
+            child.transform.position = new Vector3(100 * potionCount + 50, 50, 0);
             potionCount++;
         }
         potionCount = 0;
