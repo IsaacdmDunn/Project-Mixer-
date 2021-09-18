@@ -10,5 +10,5 @@ public class Liquid : MonoBehaviour
     public Color color;
     public string name;
     public int id;
-
+    public float boilingPoint;
 }

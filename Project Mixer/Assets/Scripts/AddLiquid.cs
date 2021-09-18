@@ -37,5 +37,9 @@ public class AddLiquid : MonoBehaviour
         {
             AddFluid(liquids.liquidsPrefab[2]);
         }
+        else if (Input.GetKey(KeyCode.Alpha4))
+        {
+            AddFluid(liquids.liquidsPrefab[5]);
+        }
     }
 }

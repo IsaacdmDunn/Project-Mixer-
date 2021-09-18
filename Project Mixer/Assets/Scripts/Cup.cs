@@ -17,8 +17,16 @@ public class Cup : MonoBehaviour
     public Text liquidList;
 
     public List<Mixer> mixer;
+    public List<Boiler> boiler;
     public Potion potion;
     public GameObject potionParent;
+
+    public bool isCooking = false;
+    public float temp = 0f;
+    public float coolingRate = 0f;
+    public float heatingRate = 0f;
+    public RawImage TempMeter;
+    public GameObject steam;
 
     //creates potion
     public void FinishPotion()
@@ -119,6 +127,30 @@ public class Cup : MonoBehaviour
             CupUpdate();
         }
         cupUpdated = true;
+
+        if (isCooking && temp<100f)
+        {
+            temp += heatingRate;
+        }
+        else if (temp > 20f)
+        {
+            temp -= coolingRate;
+        }
+        if (temp >50f)
+        {
+            steam.SetActive(true);
+        }
+        else
+        {
+            steam.SetActive(false);
+        }
+
+        TempMeter.transform.localScale = new Vector3(.1f, temp/100, 0);
+
+        foreach (Boiler boilMix in boiler)
+        {
+            boilMix.CheckBoil();
+        }
     }
 
     

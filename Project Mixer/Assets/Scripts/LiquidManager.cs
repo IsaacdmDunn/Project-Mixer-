@@ -11,10 +11,11 @@ public class LiquidManager : MonoBehaviour
     List<Liquid> data1;
     public void Start()
     {
-        
-        //SaveToJson();
-        //LoadFromJson();
-       // Debug.Log(liquid.id)
+
+        foreach (Liquid liquid in liquidsPrefab)
+        {
+            liquid.volume = 0;
+        }
     }
 
     public void SaveToJson()

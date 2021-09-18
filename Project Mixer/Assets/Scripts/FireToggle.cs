@@ -7,6 +7,7 @@ public class FireToggle : MonoBehaviour
 {
     public Sprite fireOn;
     public Sprite fireOff;
+    public Cup cup;
 
     public bool isFireOn;
     // Start is called before the first frame update
@@ -21,6 +22,7 @@ public class FireToggle : MonoBehaviour
         {
             gameObject.GetComponent<Image>().sprite = fireOff;
         }
+        cup.isCooking = !cup.isCooking;
     }
 
    
