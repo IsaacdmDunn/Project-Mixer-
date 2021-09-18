@@ -7,20 +7,16 @@ public class PotionManager : MonoBehaviour
 {
     public List<Potion> potions;
     public int potionCount = 0;
-    public int liquidsToAdd = 0;
 
     public Text potionInfo;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
 
-    // Update is called once per frame
+    //Updates the potion list when a new potion is made
     public void PotionUpdate()
     {
         potionInfo.text = "Contents:  \n";
 
+        //for each potion made update text and move potion
         foreach (Transform child in this.transform)
         {
             potionInfo.text += "Liquids: " + "Potion ID: " + potionCount + "\n";

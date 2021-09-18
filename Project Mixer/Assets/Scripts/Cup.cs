@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Cup : MonoBehaviour
 {
     public List<Liquid> contents;
+    public RawImage contentsMeter;
     public RawImage contentsSprite;
     public float cupSize = 10f;
     public float cupVolume = 0f;
@@ -19,58 +20,53 @@ public class Cup : MonoBehaviour
     public Potion potion;
     public GameObject potionParent;
 
-    //public PotionList potionList;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        //contents = new List<Liquid>();
-        contentsSprite.color = new Vector4(1f,1f,1f,1f);
-    }
-
+    //creates potion
     public void FinishPotion()
     {
+        //sets up potion
         potion.cupVolume = cupVolume;
         potion.contents = contents;
         potion.color = color;
-        //foreach (Liquid liquid in contents)
-        //{
-        //    potion.contents.Add(liquid);
-        //}
 
-        //potionList.potions.Add(potion);
+        //Instantiate potion and update potion list
         Potion newPotion = Instantiate(potion, new Vector3(),new Quaternion(),potionParent.transform);
-
         potionParent.GetComponent<PotionManager>().PotionUpdate();
 
-        //potionList.UpdateUI();
+        //empties cup and resets it
         foreach (Liquid liquid in contents)
         {
             liquid.volume = 0f;
         }
-        //dropRate = 100f;
         contents.Clear();
         cupVolume = 0f;
         cupUpdated = false;
 
     }
 
+    //updates cup
     public void CupUpdate()
     {
+        //resets color and volume
         cupVolume = 0;
+        contentsMeter.color = new Vector4(1f, 1f, 1f, 1f);
         contentsSprite.color = new Vector4(1f, 1f, 1f, 1f);
+
         liquidList.text = "Contents \n";
 
-        // cupVolume = red.volume + blue.volume;
+        //set attributes of potion from liquids contained in it
         foreach (Liquid liquid in contents)
         {
             liquid.volume -= dropRate * liquid.volume;
+            contentsMeter.color = contentsMeter.color + (liquid.color * (liquid.volume * 1000));
             contentsSprite.color = contentsSprite.color + (liquid.color * (liquid.volume * 1000));
             cupVolume += liquid.volume;
+
             liquidList.text += liquid.name + " : " + liquid.volume * 100 + "% \n";
 
 
         }
+
+        //removes liquid when volume gets too low
         for (int i = 0; i < contents.Count; i++)
         {
             if (contents[i].volume < 0.01f)
@@ -80,17 +76,23 @@ public class Cup : MonoBehaviour
 
         }
 
+        //checks for any available mixes 
         foreach (Mixer mix in mixer)
         {
             mix.CheckMix();
         }
 
+        //calculates final potion attributes
+        contentsMeter.color = contentsMeter.color / (cupVolume * 1000);
         contentsSprite.color = contentsSprite.color / (cupVolume * 1000);
+        color = contentsMeter.color;
         color = contentsSprite.color;
-        contentsSprite.transform.localScale = new Vector3(1, cupVolume, cupVolume);
+        contentsMeter.transform.localScale = new Vector3(.1f, cupVolume, cupVolume);
+        contentsSprite.transform.localScale = new Vector3(cupVolume, cupVolume, cupVolume);
 
+        //calculates liquid drop rate depending on how tilted the cup is
         dropRate = gameObject.transform.rotation.z * 0.003f;
-        if (dropRate < 0.0012f)// && gameObject.transform.rotation.z > 30f)
+        if (dropRate < 0.0012f)
         {
             dropRate = 0;
         }
@@ -99,7 +101,7 @@ public class Cup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //tilts cup so liquids can be poured out
         if (Input.GetKey(KeyCode.Q) && gameObject.transform.rotation.z < 90f)
         {
            gameObject.transform.Rotate(new Vector3(0,0,.1f));
@@ -110,7 +112,8 @@ public class Cup : MonoBehaviour
             gameObject.transform.Rotate(new Vector3(0, 0, -.1f));
             cupUpdated = false;
         }
-        //cupUpdated = false;
+        
+        //checks if cup can be updated
         if (!cupUpdated)
         {
             CupUpdate();

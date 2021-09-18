@@ -3,22 +3,9 @@ using UnityEngine;
 public class AddLiquid : MonoBehaviour
 {
     public Cup cup;
-    public LiquidManager lm;
     public LiquidManager liquids;
 
-    public Liquid blue;
-    public Liquid red;
-    public Liquid green;
-
-    public void Start()
-    {
-        blue.volume = 0;
-        red.volume = 0;
-        green.volume = 0;
-        
-    }
-
-
+    //checks if liquid exists, if not add new liquid to cup then adds liquid
     public void AddFluid(Liquid liquid)
     {
         if (cup.cupVolume < cup.cupSize)
@@ -35,6 +22,7 @@ public class AddLiquid : MonoBehaviour
         }
     }
 
+    //check for liquids to be added to cup
     public void Update()
     {
         if (Input.GetKey(KeyCode.Alpha1))
