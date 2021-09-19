@@ -1,0 +1,24 @@
+features
+potion crafting -
+	powder mix
+	better referencing system for liquids and mixes
+	json file system
+	multiple potion crafting stations
+characters-
+	dialog system
+	events
+	missions
+	relation
+overworld -
+	areas with unique items
+	level blockers
+	day/night cycle
+	calander
+player -
+	inventory
+	gathering
+	fishing
+	combat - sword, wand and potion throw/use
+	health/mana
+	
+	

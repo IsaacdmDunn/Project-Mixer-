@@ -28,7 +28,6 @@ public class Boiler : MonoBehaviour
             //Debug.Log("dawujhwidh");
             if (!cup.contents.Find(x => x.id == mix.id))
             {
-                Debug.Log("dawujhwidh");
                 cup.contents.Add(mix);
                 
             }

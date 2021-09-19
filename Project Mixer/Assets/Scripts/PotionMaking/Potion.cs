@@ -42,16 +42,15 @@ public class Potion : MonoBehaviour
                 secondaryIngredient = liquid;
                 secondaryIngredientVolume = liquid.volume;
             }
-            else
-            {
-
-            }
-            
         }
-        //contents = null;
+
         sellValue = primaryIngredientVolume * primaryIngredient.value;
         sellValue += secondaryIngredientVolume * secondaryIngredient.value;
     }
 
-
+    public void SellPotion()
+    {
+        GameObject.Find("PlayerUI").GetComponent<PlayerUI>().cash += sellValue;
+        Destroy(this.gameObject);
+    }
 }
