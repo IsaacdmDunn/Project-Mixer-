@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6282448931890257461}
   - component: {fileID: 3851012840763998336}
   m_Layer: 0
-  m_Name: Water 2
+  m_Name: Apprentices Poison
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48,3 +48,4 @@ MonoBehaviour:
   name: Apprentice's Poison
   id: 7
   boilingPoint: 0
+  value: 100

@@ -20,10 +20,12 @@ public class PotionManager : MonoBehaviour
         foreach (Transform child in this.transform)
         {
             potionInfo.text += "Liquids: " + "Potion ID: " + potionCount + "\n";
-            potionInfo.text += child.GetComponent<Potion>().primaryIngredient.name + " : " + child.GetComponent<Potion>().primaryIngredientVolume.ToString() + "\n";
+            potionInfo.text += child.GetComponent<Potion>().primaryIngredient.name + " : " + child.GetComponent<Potion>().primaryIngredientVolume.ToString() + " : " +
+                 Mathf.Round(child.GetComponent<Potion>().primaryIngredient.value * child.GetComponent<Potion>().primaryIngredientVolume).ToString() + "\n";
             if (child.GetComponent<Potion>().secondaryIngredient != null)
             {
-                potionInfo.text += child.GetComponent<Potion>().secondaryIngredient.name + " : " + child.GetComponent<Potion>().secondaryIngredientVolume.ToString() + "\n";
+                potionInfo.text += child.GetComponent<Potion>().secondaryIngredient.name + " : " + child.GetComponent<Potion>().secondaryIngredientVolume.ToString() + " : " +
+                    Mathf.Round(child.GetComponent<Potion>().secondaryIngredient.value * child.GetComponent<Potion>().secondaryIngredientVolume).ToString() + "\n";
             }
             child.transform.position = new Vector3(100 * potionCount + 50, 50, 0);
             potionCount++;

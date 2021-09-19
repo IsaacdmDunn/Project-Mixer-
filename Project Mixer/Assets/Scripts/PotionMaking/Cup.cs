@@ -136,7 +136,7 @@ public class Cup : MonoBehaviour
         {
             temp -= coolingRate;
         }
-        if (temp >50f)
+        if (temp >50f && cupVolume > 0)
         {
             steam.SetActive(true);
         }

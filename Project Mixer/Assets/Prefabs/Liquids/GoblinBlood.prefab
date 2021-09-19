@@ -47,3 +47,5 @@ MonoBehaviour:
   color: {r: 0.6981132, g: 0.068837345, b: 0, a: 1}
   name: Goblin Blood
   id: 2
+  boilingPoint: 0
+  value: 50

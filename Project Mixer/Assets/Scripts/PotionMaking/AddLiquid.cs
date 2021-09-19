@@ -3,6 +3,7 @@ using UnityEngine;
 public class AddLiquid : MonoBehaviour
 {
     public Cup cup;
+    public PlayerUI playerUI;
     public LiquidManager liquids;
 
     //checks if liquid exists, if not add new liquid to cup then adds liquid
@@ -18,6 +19,7 @@ public class AddLiquid : MonoBehaviour
                 cup.contents.Add(liquid);
             }
             cup.contents.Find(x => x.id == liquid.id).volume += 0.001f;
+            playerUI.cash -= liquid.value / 1000;
             cup.cupUpdated = false;
         }
     }

@@ -47,3 +47,5 @@ MonoBehaviour:
   color: {r: 0.07662869, g: 0.18964423, b: 0.7735849, a: 0.80784315}
   name: Mana Potion
   id: 5
+  boilingPoint: 0
+  value: 120

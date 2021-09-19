@@ -13,6 +13,7 @@ public class Potion : MonoBehaviour
     public float primaryIngredientVolume;
     public Liquid secondaryIngredient;
     public float secondaryIngredientVolume;
+    public float sellValue;
 
     // Start is called before the first frame update
     void Awake()
@@ -37,12 +38,20 @@ public class Potion : MonoBehaviour
             }
             else if(secondaryIngredient == null)
             {
-                secondaryIngredientVolume = liquid.volume;
+
                 secondaryIngredient = liquid;
+                secondaryIngredientVolume = liquid.volume;
+            }
+            else
+            {
+
             }
             
         }
         //contents = null;
+        sellValue = primaryIngredientVolume * primaryIngredient.value;
+        sellValue += secondaryIngredientVolume * secondaryIngredient.value;
     }
+
 
 }

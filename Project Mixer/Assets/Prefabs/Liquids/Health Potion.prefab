@@ -47,3 +47,5 @@ MonoBehaviour:
   color: {r: 0.990566, g: 0.08796608, b: 0, a: 0.8666667}
   name: Health Potion
   id: 4
+  boilingPoint: 0
+  value: 120

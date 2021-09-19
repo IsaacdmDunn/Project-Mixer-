@@ -48,3 +48,4 @@ MonoBehaviour:
   name: Blue Flower Extract
   id: 6
   boilingPoint: 80
+  value: 30

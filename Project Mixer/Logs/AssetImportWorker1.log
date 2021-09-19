@@ -3083,3 +3083,1029 @@ Received Import Request.
 Start importing Assets/Prefabs/Boil/Boil_ApprenticesPoison.prefab using Guid(2f4ca376b84d9a548a902a03667660bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b2ab4c2019dc22371537cc35388b0a') in 0.023406 seconds
   Import took 0.025337 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000791 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.629 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 132.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1799.
+Total: 1.862600 ms (FindLiveObjects: 0.228800 ms CreateObjectMapping: 0.027700 ms MarkObjects: 1.559100 ms  DeleteObjects: 0.045700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000610 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.620 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.6 MB.
+System memory in use after: 132.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1801.
+Total: 1.828400 ms (FindLiveObjects: 0.192600 ms CreateObjectMapping: 0.026400 ms MarkObjects: 1.560700 ms  DeleteObjects: 0.047400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000767 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.627 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.7 MB.
+System memory in use after: 132.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1803.
+Total: 1.773900 ms (FindLiveObjects: 0.209500 ms CreateObjectMapping: 0.028500 ms MarkObjects: 1.493000 ms  DeleteObjects: 0.041500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 657.758419 seconds.
+  path: Assets/Prefabs/Liquids/Apprentices Poison.prefab
+  artifactKey: Guid(5caf2030769be3c47ab9e673e5a3a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/Apprentices Poison.prefab using Guid(5caf2030769be3c47ab9e673e5a3a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5364dd0998149b7c1b4ba5bbfbc0579d') in 0.018786 seconds
+  Import took 0.020622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Prefabs/Liquids/GreenSlimeOoze.prefab
+  artifactKey: Guid(0838d049043a31c42aa8fd18ee9a15d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/GreenSlimeOoze.prefab using Guid(0838d049043a31c42aa8fd18ee9a15d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588b4ed611693dd774957843d9c95964') in 0.003218 seconds
+  Import took 0.004653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Prefabs/Liquids/Water.prefab
+  artifactKey: Guid(1137032fdcaacb3489b5c770b5ac4d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/Water.prefab using Guid(1137032fdcaacb3489b5c770b5ac4d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ef770cf8ba5fb69dcc2e1198b5cbe4') in 0.003082 seconds
+  Import took 0.005137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Prefabs/Liquids/Health Potion.prefab
+  artifactKey: Guid(9ac3bc306e926a24ea9757edcc96f7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/Health Potion.prefab using Guid(9ac3bc306e926a24ea9757edcc96f7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2443fcef3ef2e6045f284727dadd4b6c') in 0.003869 seconds
+  Import took 0.006109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Prefabs/Liquids/BlueFlowerExtract.prefab
+  artifactKey: Guid(d961749310954b84ba0fd3d7212e167e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/BlueFlowerExtract.prefab using Guid(d961749310954b84ba0fd3d7212e167e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949998cb053506d942f3cfa9f7773ff4') in 0.003668 seconds
+  Import took 0.005508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Prefabs/Liquids/GoblinBlood.prefab
+  artifactKey: Guid(cb986342b65b70548a23300011857e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/GoblinBlood.prefab using Guid(cb986342b65b70548a23300011857e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedebaeb5fd713a99293fd37805b9c76') in 0.003134 seconds
+  Import took 0.005319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Prefabs/Liquids/Mana Potion.prefab
+  artifactKey: Guid(7062e407c4d8b0f4192588ff9c6697b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/Mana Potion.prefab using Guid(7062e407c4d8b0f4192588ff9c6697b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75dfe87d3ad0d8dfc5846798880ce2a') in 0.003261 seconds
+  Import took 0.005066 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000631 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.617 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.9 MB.
+System memory in use after: 133.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1805.
+Total: 1.525300 ms (FindLiveObjects: 0.217100 ms CreateObjectMapping: 0.030200 ms MarkObjects: 1.238000 ms  DeleteObjects: 0.038800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.706549 seconds.
+  path: Assets/Prefabs/Liquids/Apprentices Poison.prefab
+  artifactKey: Guid(5caf2030769be3c47ab9e673e5a3a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/Apprentices Poison.prefab using Guid(5caf2030769be3c47ab9e673e5a3a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45a5ee7e5819966353b32d11a3f864b') in 0.019740 seconds
+  Import took 0.021971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.850162 seconds.
+  path: Assets/Prefabs/Liquids/Apprentices Poison.prefab
+  artifactKey: Guid(5caf2030769be3c47ab9e673e5a3a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/Apprentices Poison.prefab using Guid(5caf2030769be3c47ab9e673e5a3a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ca24956c4e968a06f2aa7e179ae45a') in 0.003866 seconds
+  Import took 0.005773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.343382 seconds.
+  path: Assets/Prefabs/Liquids/BlueFlowerExtract.prefab
+  artifactKey: Guid(d961749310954b84ba0fd3d7212e167e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/BlueFlowerExtract.prefab using Guid(d961749310954b84ba0fd3d7212e167e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1e0f64632eeb72e63eb05e533ddd27') in 0.003322 seconds
+  Import took 0.005181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.138781 seconds.
+  path: Assets/Prefabs/Liquids/GoblinBlood.prefab
+  artifactKey: Guid(cb986342b65b70548a23300011857e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/GoblinBlood.prefab using Guid(cb986342b65b70548a23300011857e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd9d4ab530bd78326e995963fbeb87f') in 0.003524 seconds
+  Import took 0.005428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.724297 seconds.
+  path: Assets/Prefabs/Liquids/GreenSlimeOoze.prefab
+  artifactKey: Guid(0838d049043a31c42aa8fd18ee9a15d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/GreenSlimeOoze.prefab using Guid(0838d049043a31c42aa8fd18ee9a15d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c84111fe5408a7a8064c6e1e0af19f') in 0.003523 seconds
+  Import took 0.005616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.919630 seconds.
+  path: Assets/Prefabs/Liquids/Health Potion.prefab
+  artifactKey: Guid(9ac3bc306e926a24ea9757edcc96f7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/Health Potion.prefab using Guid(9ac3bc306e926a24ea9757edcc96f7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bffa0f1a0649a15f334f349dd856b71') in 0.003576 seconds
+  Import took 0.005974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.002659 seconds.
+  path: Assets/Prefabs/Liquids/Mana Potion.prefab
+  artifactKey: Guid(7062e407c4d8b0f4192588ff9c6697b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/Mana Potion.prefab using Guid(7062e407c4d8b0f4192588ff9c6697b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aeb1c18a4fac41d689711330393df71') in 0.003574 seconds
+  Import took 0.005596 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000635 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.618 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 133.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1807.
+Total: 1.687800 ms (FindLiveObjects: 0.200100 ms CreateObjectMapping: 0.029400 ms MarkObjects: 1.410700 ms  DeleteObjects: 0.045700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.773041 seconds.
+  path: Assets/Scripts/FireToggle.cs
+  artifactKey: Guid(f00ef2d12b20ec74baa29bea6096889d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FireToggle.cs using Guid(f00ef2d12b20ec74baa29bea6096889d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62eadd10996d0ed007f55882b67880ca') in 0.006666 seconds
+  Import took 0.008589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.115424 seconds.
+  path: Assets/Scripts/Liquid.cs
+  artifactKey: Guid(abf69831fe193244184aa91a9fc5f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Liquid.cs using Guid(abf69831fe193244184aa91a9fc5f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514b4e510d088750a6f2d32cecea1f8d') in 0.005753 seconds
+  Import took 0.008040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.401930 seconds.
+  path: Assets/Scripts/LiquidManager.cs
+  artifactKey: Guid(b5fb59b06d2d11043bc9c4da04c31019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LiquidManager.cs using Guid(b5fb59b06d2d11043bc9c4da04c31019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddb40aaa2d9d8213040d5e07a554d94') in 0.005722 seconds
+  Import took 0.007647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.918366 seconds.
+  path: Assets/Scripts/Potion.cs
+  artifactKey: Guid(759047734dc28ae4fa3e7519a482736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Potion.cs using Guid(759047734dc28ae4fa3e7519a482736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202cba406e1cc55bbdd07026742fe807') in 0.005034 seconds
+  Import took 0.006834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.341898 seconds.
+  path: Assets/Scripts/PotionList.cs
+  artifactKey: Guid(176c0ee46f60deb4797f2a2cb4af7596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PotionList.cs using Guid(176c0ee46f60deb4797f2a2cb4af7596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b8a89bc2e590bfd4dffe0a8ef0c0aa') in 0.004975 seconds
+  Import took 0.006733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.438733 seconds.
+  path: Assets/Scripts/PotionManager.cs
+  artifactKey: Guid(b36101f101285494491cd445f6dec465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PotionManager.cs using Guid(b36101f101285494491cd445f6dec465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122166d93c67245b6bb5268bb6618aed') in 0.005813 seconds
+  Import took 0.008045 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000523 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.617 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1809.
+Total: 1.819000 ms (FindLiveObjects: 0.254000 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.473500 ms  DeleteObjects: 0.052500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 221.609349 seconds.
+  path: Assets/Scripts/PotionManager.cs
+  artifactKey: Guid(b36101f101285494491cd445f6dec465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PotionManager.cs using Guid(b36101f101285494491cd445f6dec465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b59a5f66f3874471f0bfde871efe3a') in 0.003894 seconds
+  Import took 0.005793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.218359 seconds.
+  path: Assets/Scripts/AddLiquid.cs
+  artifactKey: Guid(d8f9d0a19950f2b43ad1a5bde30db9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AddLiquid.cs using Guid(d8f9d0a19950f2b43ad1a5bde30db9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b081dbdb22ccdcdc16bc6880529b015') in 0.005588 seconds
+  Import took 0.008165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.318921 seconds.
+  path: Assets/Scripts/Boiler.cs
+  artifactKey: Guid(4c993a831e7a1a34295f4fd4fd00a268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Boiler.cs using Guid(4c993a831e7a1a34295f4fd4fd00a268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93a6d0e929b1ba646285fed8fc78621') in 0.005011 seconds
+  Import took 0.007435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.301459 seconds.
+  path: Assets/Scripts/Cup.cs
+  artifactKey: Guid(5541648d857a6c34d9274e38f2ae9ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cup.cs using Guid(5541648d857a6c34d9274e38f2ae9ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bee2006daed74ba2fbf85f0cd67c01e') in 0.004934 seconds
+  Import took 0.006939 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000604 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.659 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.3 MB.
+System memory in use after: 132.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1811.
+Total: 1.567300 ms (FindLiveObjects: 0.208800 ms CreateObjectMapping: 0.027500 ms MarkObjects: 1.285000 ms  DeleteObjects: 0.044700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000487 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.625 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.4 MB.
+System memory in use after: 132.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1813.
+Total: 1.641800 ms (FindLiveObjects: 0.226900 ms CreateObjectMapping: 0.027000 ms MarkObjects: 1.344500 ms  DeleteObjects: 0.042700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 369.512573 seconds.
+  path: Assets/Prefabs/Liquids/Apprentices Poison.prefab
+  artifactKey: Guid(5caf2030769be3c47ab9e673e5a3a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/Apprentices Poison.prefab using Guid(5caf2030769be3c47ab9e673e5a3a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6b20e65b9f01099881a3774749447e') in 0.020591 seconds
+  Import took 0.022852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.031367 seconds.
+  path: Assets/Prefabs/Liquids/BlueFlowerExtract.prefab
+  artifactKey: Guid(d961749310954b84ba0fd3d7212e167e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/BlueFlowerExtract.prefab using Guid(d961749310954b84ba0fd3d7212e167e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1594534a97f94f950764cd548cb0cf86') in 0.003371 seconds
+  Import took 0.005216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.149424 seconds.
+  path: Assets/Prefabs/Liquids/GoblinBlood.prefab
+  artifactKey: Guid(cb986342b65b70548a23300011857e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/GoblinBlood.prefab using Guid(cb986342b65b70548a23300011857e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85e705bc416831825f8cbc96f094a07') in 0.003531 seconds
+  Import took 0.005902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.653235 seconds.
+  path: Assets/Prefabs/Liquids/GreenSlimeOoze.prefab
+  artifactKey: Guid(0838d049043a31c42aa8fd18ee9a15d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/GreenSlimeOoze.prefab using Guid(0838d049043a31c42aa8fd18ee9a15d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3ca4d125084160ec3256d2a6a7fbaa') in 0.004056 seconds
+  Import took 0.006066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006553 seconds.
+  path: Assets/Prefabs/Liquids/GreenSlimeOoze.prefab
+  artifactKey: Guid(0838d049043a31c42aa8fd18ee9a15d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/GreenSlimeOoze.prefab using Guid(0838d049043a31c42aa8fd18ee9a15d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3ca4d125084160ec3256d2a6a7fbaa') in 0.003284 seconds
+  Import took 0.005327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.637845 seconds.
+  path: Assets/Prefabs/Liquids/Health Potion.prefab
+  artifactKey: Guid(9ac3bc306e926a24ea9757edcc96f7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/Health Potion.prefab using Guid(9ac3bc306e926a24ea9757edcc96f7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230ba3d1f8ca78b0f30304db43227602') in 0.003940 seconds
+  Import took 0.006385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.190763 seconds.
+  path: Assets/Prefabs/Liquids/Mana Potion.prefab
+  artifactKey: Guid(7062e407c4d8b0f4192588ff9c6697b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/Mana Potion.prefab using Guid(7062e407c4d8b0f4192588ff9c6697b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f04169e29e9c38eab22f63fc19960c') in 0.003169 seconds
+  Import took 0.005744 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000503 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.635 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.6 MB.
+System memory in use after: 132.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1815.
+Total: 1.645600 ms (FindLiveObjects: 0.168400 ms CreateObjectMapping: 0.026400 ms MarkObjects: 1.401800 ms  DeleteObjects: 0.047600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000498 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.632 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.7 MB.
+System memory in use after: 132.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1817.
+Total: 1.591800 ms (FindLiveObjects: 0.251200 ms CreateObjectMapping: 0.026300 ms MarkObjects: 1.273300 ms  DeleteObjects: 0.040100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 351.625052 seconds.
+  path: Assets/Prefabs/Liquids/Apprentices Poison.prefab
+  artifactKey: Guid(5caf2030769be3c47ab9e673e5a3a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/Apprentices Poison.prefab using Guid(5caf2030769be3c47ab9e673e5a3a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413f9596d98358ab527b919da25fd85d') in 0.018835 seconds
+  Import took 0.020866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.806443 seconds.
+  path: Assets/Prefabs/Liquids/BlueFlowerExtract.prefab
+  artifactKey: Guid(d961749310954b84ba0fd3d7212e167e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/BlueFlowerExtract.prefab using Guid(d961749310954b84ba0fd3d7212e167e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7d6cdbb655e52cec5d6c5cd6a7c1ff') in 0.003626 seconds
+  Import took 0.006559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.624595 seconds.
+  path: Assets/Prefabs/Liquids/GoblinBlood.prefab
+  artifactKey: Guid(cb986342b65b70548a23300011857e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/GoblinBlood.prefab using Guid(cb986342b65b70548a23300011857e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49da464299c153957757194962de0df6') in 0.004346 seconds
+  Import took 0.006527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.949299 seconds.
+  path: Assets/Prefabs/Liquids/GreenSlimeOoze.prefab
+  artifactKey: Guid(0838d049043a31c42aa8fd18ee9a15d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/GreenSlimeOoze.prefab using Guid(0838d049043a31c42aa8fd18ee9a15d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc62102912327cad02f96043b8d1373') in 0.004595 seconds
+  Import took 0.007255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.339424 seconds.
+  path: Assets/Prefabs/Liquids/Health Potion.prefab
+  artifactKey: Guid(9ac3bc306e926a24ea9757edcc96f7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/Health Potion.prefab using Guid(9ac3bc306e926a24ea9757edcc96f7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd601cc8fdd7395a9d45aad7dacc9e62') in 0.003293 seconds
+  Import took 0.006567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.701047 seconds.
+  path: Assets/Prefabs/Liquids/Mana Potion.prefab
+  artifactKey: Guid(7062e407c4d8b0f4192588ff9c6697b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Liquids/Mana Potion.prefab using Guid(7062e407c4d8b0f4192588ff9c6697b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7178901737ac4b6477c44a0d2084cbb') in 0.003702 seconds
+  Import took 0.006518 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000706 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.623 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.9 MB.
+System memory in use after: 132.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1819.
+Total: 1.768000 ms (FindLiveObjects: 0.252100 ms CreateObjectMapping: 0.027300 ms MarkObjects: 1.432900 ms  DeleteObjects: 0.054700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 590.720096 seconds.
+  path: Assets/Sprites/Coin.png
+  artifactKey: Guid(06a69d8ed4ee92f4ea458a2e1a3b3069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin.png using Guid(06a69d8ed4ee92f4ea458a2e1a3b3069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a75159bfecba4d38597795d48af335') in 0.048488 seconds
+  Import took 0.050607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sprites/SteamParticle.png
+  artifactKey: Guid(3adfa03aca6116e4294607d19acf2258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SteamParticle.png using Guid(3adfa03aca6116e4294607d19acf2258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0b0f1cac9cb8d071eebf6dea1588dd') in 0.031166 seconds
+  Import took 0.033128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.873380 seconds.
+  path: Assets/Sprites/Coin.png
+  artifactKey: Guid(06a69d8ed4ee92f4ea458a2e1a3b3069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin.png using Guid(06a69d8ed4ee92f4ea458a2e1a3b3069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc77317a6679c482626396fda813fb6') in 0.009737 seconds
+  Import took 0.011937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.260001 seconds.
+  path: Assets/Sprites/Coin.png
+  artifactKey: Guid(06a69d8ed4ee92f4ea458a2e1a3b3069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin.png using Guid(06a69d8ed4ee92f4ea458a2e1a3b3069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8907055bc58900e6714a5b874b990f') in 0.009141 seconds
+  Import took 0.012407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006955 seconds.
+  path: Assets/Sprites/Coin.png
+  artifactKey: Guid(06a69d8ed4ee92f4ea458a2e1a3b3069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Coin.png using Guid(06a69d8ed4ee92f4ea458a2e1a3b3069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8907055bc58900e6714a5b874b990f') in 0.006331 seconds
+  Import took 0.008073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 626.617789 seconds.
+  path: Assets/Scripts/PlayerUI.cs
+  artifactKey: Guid(ad477d8f2d43423429facf21018f3702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerUI.cs using Guid(ad477d8f2d43423429facf21018f3702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b4193320f78c02e1a705f6c73cb0eb') in 0.005726 seconds
+  Import took 0.008360 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000674 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.943 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 133.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1823.
+Total: 1.703500 ms (FindLiveObjects: 0.300600 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.324900 ms  DeleteObjects: 0.044800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.159632 seconds.
+  path: Assets/Scripts/PotionMaking
+  artifactKey: Guid(f537865eeb1628847adf8d81e11185d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PotionMaking using Guid(f537865eeb1628847adf8d81e11185d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd0b53f525d3002c624240158424a08') in 0.008002 seconds
+  Import took 0.009989 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000633 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.697 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.2 MB.
+System memory in use after: 133.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1825.
+Total: 1.874800 ms (FindLiveObjects: 0.317900 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.470300 ms  DeleteObjects: 0.045900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000549 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.617 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.4 MB.
+System memory in use after: 132.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1827.
+Total: 1.813900 ms (FindLiveObjects: 0.222600 ms CreateObjectMapping: 0.029300 ms MarkObjects: 1.506900 ms  DeleteObjects: 0.053900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.064126 seconds.
+  path: Assets/Scripts/PlayerUI.cs
+  artifactKey: Guid(ad477d8f2d43423429facf21018f3702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerUI.cs using Guid(ad477d8f2d43423429facf21018f3702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a6432e7398abfbd798d523a64011fa') in 0.004390 seconds
+  Import took 0.006798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.201454 seconds.
+  path: Assets/Scripts/PlayerUI.prefab
+  artifactKey: Guid(3b286a53c24c0a546a5eda2fd5049081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerUI.prefab using Guid(3b286a53c24c0a546a5eda2fd5049081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846338fcb5ee3aacaf8d477f8006d59f') in 0.027630 seconds
+  Import took 0.029788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028692 seconds.
+  path: Assets/Scripts/PlayerUI.prefab
+  artifactKey: Guid(3b286a53c24c0a546a5eda2fd5049081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerUI.prefab using Guid(3b286a53c24c0a546a5eda2fd5049081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846338fcb5ee3aacaf8d477f8006d59f') in 0.003382 seconds
+  Import took 0.005112 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.658 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.6 MB.
+System memory in use after: 132.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1831.
+Total: 1.700500 ms (FindLiveObjects: 0.265600 ms CreateObjectMapping: 0.041300 ms MarkObjects: 1.348400 ms  DeleteObjects: 0.044300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000510 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.641 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.7 MB.
+System memory in use after: 132.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1833.
+Total: 2.047800 ms (FindLiveObjects: 0.176500 ms CreateObjectMapping: 0.026600 ms MarkObjects: 1.796700 ms  DeleteObjects: 0.046900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000576 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.628 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.9 MB.
+System memory in use after: 132.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1835.
+Total: 1.723800 ms (FindLiveObjects: 0.338200 ms CreateObjectMapping: 0.028600 ms MarkObjects: 1.308200 ms  DeleteObjects: 0.047600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000504 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.608 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 133.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1837.
+Total: 1.695500 ms (FindLiveObjects: 0.205300 ms CreateObjectMapping: 0.026900 ms MarkObjects: 1.408900 ms  DeleteObjects: 0.053300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000479 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.615 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1839.
+Total: 1.513600 ms (FindLiveObjects: 0.188100 ms CreateObjectMapping: 0.029600 ms MarkObjects: 1.257100 ms  DeleteObjects: 0.038000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 463.739679 seconds.
+  path: Assets/Scripts/PotionMaking/AddLiquid.cs
+  artifactKey: Guid(d8f9d0a19950f2b43ad1a5bde30db9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PotionMaking/AddLiquid.cs using Guid(d8f9d0a19950f2b43ad1a5bde30db9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58547655784978bcede1f14fc0e51d03') in 0.003785 seconds
+  Import took 0.005820 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000561 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.635 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.3 MB.
+System memory in use after: 133.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1841.
+Total: 1.570300 ms (FindLiveObjects: 0.183300 ms CreateObjectMapping: 0.025900 ms MarkObjects: 1.319800 ms  DeleteObjects: 0.040400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000491 seconds.
+Callback registration failed. Increase kMaxCallback.
+
+Fatal Error! Callback registration failed. Increase kMaxCallback.
+
+Crash!!!
+SymInit: Symbol-SearchPath: 'C:/Users/ganda/Documents/2020.2.1f1/Editor/Data/Mono;.;C:\Users\ganda\Documents\GitHub\Project-Mixer-\Project Mixer;C:\Users\ganda\Documents\2020.2.1f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 534, UserName: 'ganda'
+OS-Version: 10.0.0
+C:\Users\ganda\Documents\2020.2.1f1\Editor\Unity.exe:Unity.exe (00007FF6DEBC0000), size: 134111232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.2.1.3544
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFB56490000), size: 2052096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1110
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFB54690000), size: 774144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFB54120000), size: 2920448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFB53D20000), size: 1437696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFB53FC0000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.789
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFB544F0000), size: 1703936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFB543F0000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFB55110000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFB53C10000), size: 1093632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1110
+C:\Users\ganda\Documents\2020.2.1f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFAE5650000), size: 8974336 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.0.0.0
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFB54420000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.789
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFB55F50000), size: 704512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1052
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFB55B50000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.546
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFB55BF0000), size: 634880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFB56130000), size: 1220608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1081
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFB549D0000), size: 7598080 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFB55DB0000), size: 348160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1023
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFB55520000), size: 1220608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFB551C0000), size: 3493888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1081
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFB56420000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFB556D0000), size: 4661248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\WINDOWS\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFB53BC0000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\WINDOWS\System32\bcrypt.dll:bcrypt.dll (00007FFB544C0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1023
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFB55660000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFB54900000), size: 839680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.985
+C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FFB540C0000), size: 393216 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\Users\ganda\Documents\2020.2.1f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFB22F30000), size: 1306624 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\WLDAP32.dll:WLDAP32.dll (00007FFB560D0000), size: 352256 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\Normaliz.dll:Normaliz.dll (00007FFB55650000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Users\ganda\Documents\2020.2.1f1\Editor\optix.6.0.0.dll:optix.6.0.0.dll (00007FFB3A970000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.0.0.0
+C:\Users\ganda\Documents\2020.2.1f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFB4B3A0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.1812.6001
+C:\Users\ganda\Documents\2020.2.1f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFB22DA0000), size: 1609728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFB21970000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1081
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFB53020000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFB1C880000), size: 1200128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1081
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFB490F0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFB497F0000), size: 1081344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFB52480000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Users\ganda\Documents\2020.2.1f1\Editor\OpenRL.dll:OpenRL.dll (0000000180000000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.100.0
+C:\Users\ganda\Documents\2020.2.1f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFAC8800000), size: 8978432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 19.0.753.0
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFB4D400000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFB3C880000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
+C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFB22550000), size: 106496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.28.29910.0
+C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFB0DC60000), size: 577536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.28.29910.0
+C:\Users\ganda\Documents\2020.2.1f1\Editor\RadeonImageFilters.dll:RadeonImageFilters.dll (00007FFB22B30000), size: 2535424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.1.0
+C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (0000000070420000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (0000000070340000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\Users\ganda\Documents\2020.2.1f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFB3A880000), size: 483328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 19.0.753.20342
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFB3EAB0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL:CRYPTBASE.DLL (00007FFB53570000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFB388F0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.28.29910.0
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFB53AB0000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
+C:\Users\ganda\Documents\2020.2.1f1\Editor\OpenImageDenoise.dll:OpenImageDenoise.dll (00007FFAB6090000), size: 43806720 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Users\ganda\Documents\2020.2.1f1\Editor\tbb.dll:tbb.dll (00007FFB3A900000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.0.2016.1004
+C:\WINDOWS\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FFB3F7E0000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40649.5
+C:\WINDOWS\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FFB40E90000), size: 978944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40649.5
+C:\Users\ganda\Documents\2020.2.1f1\Editor\embree.dll:embree.dll (00007FFAC5030000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
+C:\Users\ganda\Documents\2020.2.1f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (0000021129990000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
+C:\Users\ganda\Documents\2020.2.1f1\Editor\FreeImage.dll:FreeImage.dll (00000211299A0000), size: 6414336 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
+C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFB53380000), size: 434176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFB537A0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFB51AF0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFB53E80000), size: 536576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1023
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFB51630000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1081
+C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FFB55E10000), size: 712704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1023
+C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFB51CF0000), size: 7929856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\WINDOWS\SYSTEM32\Wldp.dll:Wldp.dll (00007FFB53620000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.662
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFB56010000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FFB4F490000), size: 253952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
+C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FFB49120000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFB56000000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.610
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFB4E700000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFB4E6B0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFB53070000), size: 835584 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFB48A10000), size: 520192 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1081
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFB48A90000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFB53B00000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFB4FD90000), size: 2506752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFB524C0000), size: 999424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.964
+C:\WINDOWS\System32\DriverStore\FileRepository\nvmd.inf_amd64_1408eaf9a25ed64f\nvldumdx.dll:nvldumdx.dll (00007FFB49B20000), size: 1056768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 27.21.14.5751
+C:\WINDOWS\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFB4D1E0000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FFB551A0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFB53580000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFB52C90000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1052
+C:\WINDOWS\System32\DriverStore\FileRepository\nvmd.inf_amd64_1408eaf9a25ed64f\nvwgf2umx.dll:nvwgf2umx.dll (00007FFB23ED0000), size: 44830720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 27.21.14.5751
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFB4EBC0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFB4CA20000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1081
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFB41790000), size: 598016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1081
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFB3F010000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1081
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFB3F340000), size: 1093632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FFB398C0000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFB53A80000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.572
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2108.7-0\MpOav.dll:MpOav.dll (00007FFB33CB0000), size: 495616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.18.2108.7
+C:\Users\ganda\Documents\2020.2.1f1\Editor\cudart64_90.dll:cudart64_90.dll (00007FFAE96D0000), size: 397312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.14.11.9000
+C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FFAE9650000), size: 462848 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.2.5.0
+C:\Users\ganda\Documents\2020.2.1f1\Editor\radeonrays.dll:radeonrays.dll (00007FFAE95C0000), size: 552960 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Users\ganda\Documents\2020.2.1f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFAD0B40000), size: 7790592 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (00007FFB560C0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\ProgramData\Microsoft\VisualStudio\Setup\x64\Microsoft.VisualStudio.Setup.Configuration.Native.dll:Microsoft.VisualStudio.Setup.Configuration.Native.dll (00007FFB33290000), size: 327680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.7.3111.17308
+C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFB4F7B0000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.1023
+C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\comctl32.dll:comctl32.dll (00007FFB3FE60000), size: 2727936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.19041.1110
+C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFB4D240000), size: 1785856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\Windows\System32\MrmCoreR.dll:MrmCoreR.dll (00007FFB49FE0000), size: 1003520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1023
+C:\Windows\System32\iertutil.dll:iertutil.dll (00007FFB48AF0000), size: 2818048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.19041.1081
+C:\WINDOWS\SYSTEM32\windows.staterepositorycore.dll:windows.staterepositorycore.dll (00007FFB3EC40000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\Windows\System32\thumbcache.dll:thumbcache.dll (00007FFB33740000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\Windows\System32\bcp47mrm.dll:bcp47mrm.dll (00007FFB495D0000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.867
+C:\Windows\System32\Windows.UI.dll:Windows.UI.dll (00007FFB49E90000), size: 1314816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\Windows\System32\InputHost.dll:InputHost.dll (00007FFB49C30000), size: 1384448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
+C:\Windows\System32\WindowManagementAPI.dll:WindowManagementAPI.dll (00007FFB4D910000), size: 659456 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\System32\TextInputFramework.dll:TextInputFramework.dll (00007FFB49D90000), size: 1019904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FFB50720000), size: 1392640 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1081
+C:\Windows\System32\CoreMessaging.dll:CoreMessaging.dll (00007FFB50E20000), size: 991232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\SYSTEM32\twinapi.appcore.dll:twinapi.appcore.dll (00007FFB4D590000), size: 2101248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.964
+C:\Windows\System32\CoreUIComponents.dll:CoreUIComponents.dll (00007FFB50F20000), size: 3530752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFB528C0000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.1151_none_91a40286cc884949\gdiplus.dll:gdiplus.dll (00007FFB401D0000), size: 1740800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (00007FFB55C90000), size: 1134592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1081
+C:\WINDOWS\SYSTEM32\edputil.dll:edputil.dll (00007FFB33710000), size: 147456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\System32\Windows.StateRepositoryPS.dll:Windows.StateRepositoryPS.dll (00007FFB3A090000), size: 1335296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\SYSTEM32\policymanager.dll:policymanager.dll (00007FFB4EC90000), size: 655360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\WINDOWS\SYSTEM32\msvcp110_win.dll:msvcp110_win.dll (00007FFB52D20000), size: 565248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFB3EE20000), size: 1982464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.867
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FFB54154ED9 (KERNELBASE) RaiseException
+0x00007FF6E12D17BD (Unity) EditorMonoConsole::LogToConsoleImplementation
+0x00007FF6E12D270A (Unity) EditorMonoConsole::LogToConsoleImplementation
+0x00007FF6E2E556CE (Unity) DebugStringToFilePostprocessedStacktrace
+0x00007FF6E2E54C7F (Unity) DebugStringToFile
+0x00007FF6DEE1B703 (Unity) CallbackArraySubBase<void (__cdecl*)(MemoryManager::AllocationLogDetails const & __ptr64)>::Register
+0x00007FF6E1AA4399 (Unity) LoadDomainAndUserAssemblies
+0x00007FF6E1AA484E (Unity) LoadUserAssemblies
+0x00007FF6E1EC7F88 (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
+0x00007FF6E1F920D2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007FF6E1F94230 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007FF6E1F979BE (Unity) asio::io_service::run
+0x00007FF6E1F0DD50 (Unity) RunAssetImportWorkerClientV2
+0x00007FF6E1F0DDA0 (Unity) RunAssetImporterV2
+0x00007FF6E142D73B (Unity) Application::InitializeProject
+0x00007FF6E1DA2BE2 (Unity) WinMain
+0x00007FF6E3BE8FC6 (Unity) __scrt_common_main_seh
+0x00007FFB546A7034 (KERNEL32) BaseThreadInitThunk
+0x00007FFB564E2651 (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/ganda/AppData/Local/Temp/Unity/Editor/Crashes

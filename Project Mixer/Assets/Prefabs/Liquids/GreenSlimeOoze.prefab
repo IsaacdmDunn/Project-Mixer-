@@ -47,3 +47,5 @@ MonoBehaviour:
   color: {r: 0.41744143, g: 1, b: 0.41176474, a: 0.59607846}
   name: Green Slime Ooze
   id: 3
+  boilingPoint: 0
+  value: 40
